@@ -1,0 +1,16 @@
+INSERT INTO `vehiculo` (`id`,`nombre`,`modelo`,`marca`,`fabricacion`) VALUES 
+ (1,'bolido','Gol','Volkswagen',2003),
+ (2,'camaron','Vectra','Chevrolet',2010),
+ (3,'pepito','Civic','Honda',2012),
+ (4,'palito','Palio','Fiat',2009),
+ (5,'tucan','Tucson','Hyundai',2008),
+ (6,'pachanguero','Fiesta','Ford',2007),
+ (7,'delia','Fluence','Renault',2010),
+ (8,'camilo','360','Peugeot',2009),
+ (9,'jugador','Jetta','Volkswagen',2001),
+ (10,'veloz','Yaris','Toyota',2008),
+ (11,'talan','Tiida','Nissan',2009),
+ (12,'lento','Civic','Honda',2001),
+ (13,'combi','z900','BMW',2001),
+ (14,'mia','307','Peugeot',2002),
+ (15,'silvia','Eclipse','Mitsubishi',2012);

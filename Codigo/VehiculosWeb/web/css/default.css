@@ -1,0 +1,77 @@
+html, body {
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    background: url("../img/bg-light.png") #D5D5D5;
+    color: #fff;
+}
+body {
+    width: 550px;
+    min-height: 500px;
+    background: url("../img/bg-dark.png") black;
+    margin: 20px auto;
+    padding: 15px;
+    line-height: 20px;
+    -moz-box-shadow: 10px 10px 25px #888;
+    -webkit-box-shadow: 10px 10px 25px #888;
+    box-shadow: 10px 10px 25px #888;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    margin-bottom: 15px;
+    background: url("../img/bg-highlight.png");
+    color: #ccc;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+h2 {
+    font-size: 1.3em;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+a, a:hover, a:visited, a:active {
+    color: #77e;
+    text-decoration: none;
+}
+fieldset {
+    padding: 10px;
+}
+label, input[type=text], input[type=password], select {
+    display: block;
+}
+label {
+    width: 250px;
+    float: left;
+}
+input[type=text]:hover, input[type=password]:hover, select:hover {
+    border: 2px #d0c000 solid;
+}
+div.comandos {
+    width: 15%;
+    margin: 20px auto 10px;
+}
+ul.listado {
+    display: table;
+    min-width: 70%;
+    margin: auto;
+}
+ul.listado li {
+    display: table-row;
+}
+ul.listado li span  {
+    display: table-cell;
+    padding: 2px;
+}
+ul.listado, ul.listado li, ul.listado li span  {
+    border: 1px solid #fff;
+}
